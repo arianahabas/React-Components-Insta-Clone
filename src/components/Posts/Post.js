@@ -25,11 +25,13 @@ const Post = props => {
       {
       <LikeSection 
       likePost={() => likePost(post.id)}
-      LikeCount={() => LikeCount(post.id)}
+      likeCount={post.likes}
       />
       }
       {/* Comments also wants its props! */}
-      <Comments comments={() => comments(post.id)}/>
+      <Comments 
+      comments={post.comments}
+      />
     </div>
   );
 };
