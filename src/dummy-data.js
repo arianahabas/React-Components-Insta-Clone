@@ -54,6 +54,31 @@ const dummyData = [
             },
         ],
     },
+    {
+        id: 3,
+        username: "Riri",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://images.unsplash.com/photo-1579298245158-33e8f568f7d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60',
+        likes: 2222,
+        timestamp: "Aug 14th 2017, 03:12:09 pm",
+        comments: [
+            {
+                id: 32,
+                username: "Riri",
+                text: "classics",
+            },
+            {
+                id: 37,
+                username: "michaelmarzetta",
+                text: "YES",
+            },
+            {
+                id: 38,
+                username: "themexican_leprechaun",
+                text: "love this.",
+            },
+        ],
+    },
 ];
 
 export default dummyData;
